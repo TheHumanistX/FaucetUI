@@ -1,0 +1,8 @@
+.navbar {
+    display: flex;
+}
+
+.navlinks {
+    font-size: 2em;
+    margin-right: 40px;
+}

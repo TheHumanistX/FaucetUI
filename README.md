@@ -1,3 +1,25 @@
+# To Use This You Must Create A React App
+
+npx create-react-app 'choose_folder_name'  <-- No quotes
+
+then:
+
+npm i ethers@5.7.2 --save
+
+npm i react-router-dom --save
+
+Then, in that new folder, you want to:
+
+git init
+
+git status
+
+git add .
+
+then make your first Commit
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
