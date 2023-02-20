@@ -1,14 +1,34 @@
 import React from 'react';
-
+import { Route, Routes, NavLink } from 'react-router-dom';
+import bluedot from './images/bluedot.svg';
 import './Navbar.css';
 
-function Navbar () {
-    return(
+function Navbar() {
+    return (
         <section className="navbar">
-            <div className="navbar__home navlinks">home</div>
-            <div className="navbar__blog navlinks">blog</div>
-            <div className="navbar__whitepaper navlinks">whitepaper</div>
-        </section>
+            <div className="navbar__home">
+                <NavLink
+                    className="navlinks"
+                    to="/">
+                    home
+                </NavLink>
+            </div>
+            <div className="navbar__blog">
+                <NavLink
+                    className="navlinks"
+                    to="/blog">
+                    blog
+                </NavLink>
+            </div>
+            <div className="navbar__whitepaper">
+                <NavLink
+                    className="navlinks"
+                    activeClassName="selected"
+                    to="/whitepaper">
+                    whitepaper
+                </NavLink>
+            </div>
+        </section >
     );
 }
 

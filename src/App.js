@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
 
 // Import local components
-import { Header } from './Components/common';
+import { Header, Footer } from './Components/common';
 import { Blog, Whitepaper, Home } from './Components';
 
 //Import CSS Stylesheets
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog/" element={<Blog />} />
-        <Route path="/Components/whitepaper/" element={<Whitepaper />} />
+        <Route path="/whitepaper/" element={<Whitepaper />} />
       </Routes>
       <div className="temp">
         <ul>
@@ -25,7 +25,7 @@ function App() {
           <li>stuff</li>
         </ul>
       </div>
-
+      <Footer />
     </div>
   );
 }

@@ -3,6 +3,24 @@
 }
 
 .navlinks {
+    position: relative;
     font-size: 2em;
     margin-right: 40px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.active {
+    font-weight: bolder;
+    color: black;
+
+}
+
+.active::after {
+    content: url(./images/bluedot.svg);
+    position: absolute;
+    /* transform: translate(-51px, 30px); */
+    left: 44%;
+    top: 87%;
 }

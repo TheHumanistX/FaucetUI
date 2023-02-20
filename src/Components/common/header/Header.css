@@ -1,11 +1,11 @@
 .header {
-    min-height: 10vv;
-    min-width: 100vw;
+    min-height: 10vh;
+    min-width: 100%;
     color: #000000;
     display: flex;
-    list-style-type: none;
     align-items: center;
 }
+
 .header__logo-name {
     display: flex;
     align-items: center;
@@ -14,7 +14,9 @@
 .theFaucet {
     font-size: 3em;
 }
+
 .header__navbar {
+    display: flex;
     margin-left: auto;
-    align-items: baseline;
+    align-items: center;
 }

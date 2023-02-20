@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar } from '../../common';
-import logo from './images/tfbw.svg';   
+import logo from './images/tfbw.svg';
 
 import './Header.css';
 
@@ -18,7 +18,7 @@ function Header() {
             </section>
 
             <section className="header__navbar">
-                    <Navbar />
+                <Navbar />
             </section>
         </section>
     );
