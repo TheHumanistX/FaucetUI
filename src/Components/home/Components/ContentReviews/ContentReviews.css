@@ -1,0 +1,47 @@
+.home-CR {
+    display:flex;
+    flex-flow: column;
+    min-height: 915px;
+}
+
+.home-CR-title{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.home-CR-title>span {
+    margin:auto;
+    font-size: 3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#home-CR-CR {
+    font-weight: 700;
+}
+
+#home-CR-ourCR-hr {
+    height: 2px;
+    width: 295px;
+    color: #000000;
+    background-color: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-CR-bottom-hrdiv {
+    display: flex;
+    position: relative;
+    bottom: 2px;
+    
+}
+
+#home-CR-bottom-hr {
+    position: relative;
+    height: 1px;
+    width: 1440px;
+    color: #000000;
+    background-color: #000000;
+    top: 400px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

@@ -4,6 +4,7 @@
     color: #000000;
     display: flex;
     align-items: center;
+    background-color: #F6FFFD;
 }
 
 .header__logo-name {

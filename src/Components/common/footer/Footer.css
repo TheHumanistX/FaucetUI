@@ -1,6 +1,7 @@
 .footer * {
     background-color: #000000;
     color: #ffffff;
+    
 }
 
 .footer {
@@ -51,15 +52,16 @@
     height: 45px;
     width: 100%;
     border-radius: 15px;
-    background-color: #ffffff;
+    background-color: #F6FFFD;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 30px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .archives-button-link {
-    background-color: #ffffff;
+    background-color: #F6FFFD;
     color: #000000;
     text-decoration: none;
     font-size: 2em;

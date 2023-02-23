@@ -18,13 +18,7 @@ function App() {
         <Route path="/blog/" element={<Blog />} />
         <Route path="/whitepaper/" element={<Whitepaper />} />
       </Routes>
-      <div className="temp">
-        <ul>
-          <li>Temp words</li>
-          <li>temp</li>
-          <li>stuff</li>
-        </ul>
-      </div>
+      
       <Footer />
     </div>
   );

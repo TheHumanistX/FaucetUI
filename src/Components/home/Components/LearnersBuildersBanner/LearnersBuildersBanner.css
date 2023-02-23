@@ -1,0 +1,24 @@
+.learners-builders-banner {
+    display: flex;
+    height: 190px;
+    width: 100%;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.learners-builders-banner * {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: #000000;
+}
+
+.home-banner-x {
+    font-size: 6em;
+}
+
+.home-banner-learners-list.home-banner-builders-list {
+    display: flex;
+    flex-flow: column;
+}
