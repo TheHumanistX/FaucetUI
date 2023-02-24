@@ -36,12 +36,12 @@
 .home-team-flex-row-blacksquare {
     position: relative;
     background-color: #000000;
-    width: 800px;
+    width: 45%;
     height: 1000px;
     border-radius: 50px;
     font-size: 1.5rem;
     color: #ffffff;
-    left: 100px;
+    left: 20px;
     top: 150px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -66,6 +66,7 @@
     position: absolute;
     font-weight: 700;
     background-color: transparent;
+    
 }
 
 .home-team-flex-row-vertline {
@@ -74,6 +75,7 @@
     height: 1020px;
     left: 50%;
     margin-top: 140px;
+    width: 10%
 }
 
 .home-team-flex-column {
@@ -84,6 +86,7 @@
     background-color: transparent;
     margin-right:auto;
     margin-left: 10%;
+    width: 45%
 }
 
 .home-team-blue-blobs {
