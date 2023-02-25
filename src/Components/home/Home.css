@@ -1,5 +1,5 @@
 .home {
-    display: flex;
-    flex-flow: column;
+    margin-left: 5vw;
+    margin-right: 5vw;
     background-color: #F6FFFD;
 }

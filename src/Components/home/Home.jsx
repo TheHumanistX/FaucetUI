@@ -1,14 +1,15 @@
 import React from 'react';
-import { useState } from 'react';
+
 import './Home.css';
-import { HomeIntro, LearnersBuildersBanner, OurMission, OurPlan, ContentReviews, MeetTheTeam } from './Components';
+import { HomeIntro, HomeIntro2, LearnersBuildersBanner, OurMission, OurPlan, ContentReviews, MeetTheTeam } from './Components';
 
 function Home() {
     
     return (
         
         <section className="home">
-            <HomeIntro />
+            {/* <HomeIntro /> */}
+            <HomeIntro2 />
             <LearnersBuildersBanner />
             <OurMission />
             <OurPlan />

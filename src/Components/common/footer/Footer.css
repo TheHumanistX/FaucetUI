@@ -8,8 +8,10 @@
     display: flex;
     background-color: #000000;
     height: 190px;
-    min-width: 100%;
+    width: 90%;
     align-items: center;
+    border-left: 5vw solid #000000;
+    border-right: 5vw solid #000000;
 }
 
 .footer__logo-info {

@@ -1,10 +1,12 @@
 .learners-builders-banner {
     display: flex;
     height: 190px;
-    width: 100%;
+    width: 90%;
     background-color: #000000;
     align-items: center;
     justify-content: space-around;
+    border-left: 5vw solid #000000;
+    border-right: 5vw solid #000000;
 }
 
 .learners-builders-banner * {
@@ -12,10 +14,12 @@
     font-weight: 700;
     font-size: 2rem;
     background-color: #000000;
+    text-shadow: #ffffff 0 0 3px;
 }
 
 .home-banner-x {
-    font-size: 6em;
+    font-size: 8em;
+    text-shadow: #ffffff 0 0 15px;
 }
 
 .home-banner-learners-list.home-banner-builders-list {

@@ -1,3 +1,7 @@
 import HomeIntro from './HomeIntro.jsx';
+import HomeIntro2 from './HomeIntro2.jsx';
 
-export default HomeIntro;
+export {
+    HomeIntro,
+    HomeIntro2
+};
