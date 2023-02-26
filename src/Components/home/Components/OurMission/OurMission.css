@@ -85,7 +85,8 @@
     font-family: Inter;
     display: inline-block;
     position:absolute;
-    font-size: clamp(1.35rem, 2.5vh, 2.5rem);
+    /* font-size: clamp(1.35rem, 2.5vh, 2.5rem); */
+    font-size: 1.25vw;
     background-color: transparent;
     margin: 15px;
     justify-content: center;
