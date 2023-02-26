@@ -1,74 +1,79 @@
-.home-intro {
-    display: flex;
-    min-height: 885px;
-    align-items: center;
-    
+.homeIntro {
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(12, minmax(100px, 1fr));
 }
 
-.home-social-icons {
-    display: flex;
-    flex-flow: column;
-    height: 200px;
-    justify-content: space-between;
-    margin-left: 30px;
+.home-social-icons{
+    grid-column: 1/2;
+    grid-row: 5/9;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .learners-builders {
+    grid-column: 3/7;
+    grid-row: 6/8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
-    margin-left: 155px;
-    margin-bottom: 10px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.home-learnersBuilders-learners{
+    font-weight: 700;
+}
+
 .join-newsletter {
-    position: relative;
-    margin-left: auto;
-    margin-right: 150px;
-    color: #ffffff;
+    grid-column: 7/-1;
+    grid-row: 3/11;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
 }
 
 .join-newsletter * {
-    font-size: 2rem;
     background-color: transparent;
+    
+}
+
+.newsletter_blob_home {
+    position: relative;
+    height: 680px;
+    width: 665px;
 }
 
 .newsletter_blob_join_thefaucet {
     position: absolute;
-    top: 105px;
-    left: 180px;
-}
-
-#newsletter_blob_jointext {
+    color: #ffffff;
     font-size: 3rem;
+    margin-top: 90px;
+    margin-right: 90px;
 }
 
-#newsletter_blob_theFaucetText {
+.home-spanText-bold {
     font-weight: 700;
-    font-size: 3rem;
 }
 
-.newsletter_blob_info-line1 {
+.newsletter_blob_info {
+    margin-top: 190px;
+    margin-right: 40px;
     position: absolute;
-    top: 240px;
-    left: 145px;
+    color: #ffffff;
+    font-size: 2rem;
 }
 
-.newsletter_blob_info-line2 {
-    position: absolute;
-    top: 295px;
-    left: 80px;
-}
-
-.newsletter_blob_info-line3 {
-    position: absolute;
-    top: 350px;
-    left: 45px;
+.newsletter_blob_info > p {
+    text-align: center;
+    line-height: 2;
 }
 
 .newsletter_blob_email_input {
     position: absolute;
-    top: 440px;
-    left: 200px;
+    margin-top: 460px;
+    margin-right: 70px;
 }
 
 .homepage-newsletter-email-input{
@@ -88,9 +93,10 @@
     background-color: #415998;
     border-radius: 15px;
     font-weight: 700;
+    font-size: 2rem;
     color: #ffffff;
     height: 60px;
     width: 190px;
     top: 65px;
-    left: 220px;
+    left: 120px;
 }

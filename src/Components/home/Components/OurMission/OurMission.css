@@ -1,11 +1,11 @@
 .home-mission {
-    display:flex;
-    flex-flow: column;
-    min-height: 870px;
-    top: 20px;
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(12, minmax(100px, 1fr));
 }
 
-.home-mission-title{
+.home-mission-title {
+    grid-column: 1/-1;
+    grid-row: 1/2;
     display: flex;
     position: relative;
     justify-content: center;
@@ -15,10 +15,11 @@
 
 
 .home-mission-title>span {
-    margin:auto;
+    margin: auto;
     font-size: 3rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 
 #home-mission-Mission {
     font-weight: 700;
@@ -32,78 +33,90 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+
 .home-mission-connectedTextBubbles {
+    grid-column: 1/-1;
+    grid-row: 4/10;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.home-mission-square-wrapper-left{
+    position: relative;
+    width: 33%;
+    margin-bottom: 10px;
+}
+
+.home-mission-square-wrapper-center{
+    position: relative;
+    width: 33%;
+    margin-bottom: 10px;
+}
+
+.home-mission-square-wrapper-right{
+    position: relative;
+    width: 33%;
+    margin-bottom: 10px;
+}
+
+.home-mission-square {
+    padding-bottom: 100%;
     display: flex;
     position: relative;
 }
 
-.home-mission-connectedTextBubbles-left {
-    position: absolute;
-    height: 390px;
-    width: 740px;
-    border: 3px solid #000000;
-    border-radius: 120px;
-    left: 53px;
-    top: 50px;
+.home-mission-square-blackFill{
+    position:absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    padding: 10px;
+    background-color: #F6FFFD;
+    border:#000000 solid 25px;
+    box-shadow: 0px 6px 8px 2px gray, inset 0px 6px 8px 2px gray;;
+    border-radius: 80px;
 }
 
-.home-mission-connectedTextBubbles-left>p {
+.home-mission-square-blackFill>p {
     font-family: Inter;
+    display: inline-block;
     position:absolute;
-    font-size: 1.5rem;
+    font-size: clamp(1.35rem, 2.5vh, 2.5rem);
     background-color: transparent;
-    width: 650px;
+    margin: 15px;
+    justify-content: center;
+    
+    /* margin-top: max(5px,5%); */
+    /* width: 650px;
     height: 370px;
     margin-left: 55px;
-    margin-top: 45px;
-    
+    margin-top: 45px; */
+
 }
 
-.home-mission_textBubble_connector{
-    position: relative;
-    background-color: transparent;
-    top: 195px;
-    left: 781px;
-    
+.ourMission-Spacer{
+    grid-row: 10/11;
 }
-.home-mission-connectedTextBubbles-right {
-    position: absolute;
-    height: 390px;
-    width: 740px;
-    border: 3px solid #000000;
-    border-radius: 120px;
-    margin-right: auto;
-    right: 53px;
-    top: 260px;
-    
-}
-
-.home-mission-connectedTextBubbles-right>p {
-    /* display:inline-flex; */
-    font-family: Inter;
-    position:absolute;
-    font-size: 1.5rem;
-    background-color: transparent;
-    width: 650px;
-    height: 370px;
-    margin-left: 55px;
-    margin-top: 45px;
-    
-}
-
 .home-mission-bottom-hrdiv {
+    grid-row: 12/13;
+    grid-column: 1/-1;;
     display: flex;
     position: relative;
-    bottom: 2px;
+    align-items: center;
+    
     
 }
 
-#home-mission-bottom-hr {
-    position: relative;
+.home-mission-bottom-hr {
+    
     height: 1px;
     width: 1440px;
     color: #000000;
     background-color: #000000;
-    top: 400px;
+    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

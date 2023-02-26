@@ -8,8 +8,7 @@ function Home() {
     return (
         
         <section className="home">
-            {/* <HomeIntro /> */}
-            <HomeIntro2 />
+            <HomeIntro />
             <LearnersBuildersBanner />
             <OurMission />
             <OurPlan />
