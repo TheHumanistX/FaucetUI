@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './MeetTheTeam.css';
+// import './MeetTheTeam.css';
 
 import twitter_icon_white from '../images/twitter-icon-white.svg';
 import meet_team_blue_blob_1 from '../images/meet-team-blue-blob-1.svg';
